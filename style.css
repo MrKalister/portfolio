@@ -87,6 +87,10 @@ body {
   text-align: center;
 }
 
+.intro h3.plan{
+  margin-top: 100px;
+}
+
 .intro h3,
 .portfolio h3 {
   margin: 0 0 12px;
@@ -96,7 +100,7 @@ body {
 }
 
 .intro p {
-  margin: 0 0 32px;
+  margin: 20px 0 32px;
 }
 
 .skills-list {
@@ -118,9 +122,20 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-javascript{
+  background: url("img/icon-javascript.png");
+  background-size: 22px 24px;
+}
+
+.skill-python{
+  background-image: url("img/icon-python.png");
+  background-size: auto 24px;
+}
+
+
 .level {
   margin: 4px 0 16px;
-  padding: 0;
+  padding: 1px;
   height: 14px;
   font-size: 0;
   background-color: #ffffff;
